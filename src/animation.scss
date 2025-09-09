@@ -31,7 +31,7 @@
   }
   to {
     opacity: 0;
-    transform: translateY(-25vh);
+    transform: translateY(-20vh);
   }
 }
 
@@ -41,6 +41,6 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(0.33rem);
   }
 }

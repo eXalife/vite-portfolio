@@ -1,7 +1,6 @@
 export function stars() {
     const count = window.innerWidth / 4;
     const scene = document.querySelector('.scene')!;
-    scene.innerHTML = '';
     let i = 0;
     while (i < count) {
         const star = document.createElement("span");
